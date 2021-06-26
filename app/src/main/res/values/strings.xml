@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Drinks Menu</string>
+
+    <string name="title_gintonica">Gin Tônica</string>
+
+    <string name="descricao_gintonica">Tempo de preparo: 5 minutos
+Rendimento: 1 porção
+Introdução
+Um dos drinques preferidos da atualidade nasceu como um remédio. Para evitar a malária, os soldados ingleses precisavam consumir quinino – base da água tônica –, mas seu gosto era muito amargo. Por isso, eles adicionavam gin e acabaram criando esse coquetel delicioso!
+Ingredientes
+30 mL de gin;
+60 mL de água tônica;
+3 framboesas;
+4 folhas de manjericão;
+Gelo.
+Modo de preparo
+Em um copo longo, coloque as folhas de manjericão, as framboesas, o gelo e o gin. Adicione a água tônica gentilmente para não perder o gás e sirva!
+Harmonização
+Você sabia que a sua Gin Tônica pode ficar incrível com um sanduíche de roastbeef?</string>
 </resources>

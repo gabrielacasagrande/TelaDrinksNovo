@@ -3,12 +3,28 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/pink</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Appname" >
-        <item name="android:textColor">@color/white</item>
+    <style name="TextCheers" >
+        <item name="android:text">Cheers</item>
+        <item name="android:textColor">@color/pink</item>
+        <item name="android:textSize">20sp</item>
     </style>
+
+    <style name="Texttile" >
+        <item name="android:text">@string/title_gintonica</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="Textdescricao" >
+        <item name="android:text">@string/descricao_gintonica</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+
+
 
 </resources>
