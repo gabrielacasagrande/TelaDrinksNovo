@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:cardElevation="4dp"
         app:cardCornerRadius="4dp">
 
         <LinearLayout
@@ -20,14 +19,15 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/image_gin"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/gintonica"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/gintonica" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/gin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -42,7 +42,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:cardElevation="4dp"
         app:cardCornerRadius="4dp">
 
         <LinearLayout
@@ -52,14 +51,15 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/image_vinhoq"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/vinhoquente"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/vinhoquente" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/vinhoq"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -72,7 +72,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:cardElevation="4dp"
         app:cardCornerRadius="4dp">
 
         <LinearLayout
@@ -85,8 +84,9 @@
                 android:id="@+id/image_beach"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/drink2"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/drink2" />
 
             <TextView
                 android:id="@+id/beach"
@@ -102,7 +102,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:cardElevation="4dp"
         app:cardCornerRadius="4dp">
 
         <LinearLayout
@@ -115,8 +114,9 @@
                 android:id="@+id/image_morrito"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/morrito"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/morrito" />
 
             <TextView
                 android:id="@+id/morrito"
@@ -132,7 +132,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:cardElevation="4dp"
         app:cardCornerRadius="4dp">
 
         <LinearLayout
@@ -145,8 +144,9 @@
                 android:id="@+id/image_drymartini"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/drymartini"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/drymartini" />
 
             <TextView
                 android:id="@+id/drymartini"
@@ -157,9 +157,4 @@
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
-
-
-
-
 </LinearLayout>

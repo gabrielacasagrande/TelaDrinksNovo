@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        app:contentScrim="@color/colorPrimary"
+        app:contentScrim="@color/pink"
         app:expandedTitleMarginBottom="20dp"
         app:expandedTitleMarginTop="15dp"
         app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
@@ -47,7 +47,7 @@
               app:contentInsetStart="0dp"
               app:contentInsetStartWithNavigation="0dp"
               app:layout_collapseMode="pin"
-              app:popupTheme="@style/Theme.MaterialComponents.Light"/>
+              app:popupTheme="@color/white"/>
 
 
       </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -67,7 +67,5 @@
      <include layout="@layout/drink_card"/>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
-
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
